@@ -1,8 +1,5 @@
-# React + Vite
+# NutritionAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nutritional is an innovative application designed to help users achieve their dietary goals by providing personalized nutritional insights. By allowing users to upload pictures of their daily meals, the app analyzes the nutritional content and offers tailored recommendations based on individual dietary needs.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Nutritional simplifies the journey to healthier eating by enabling users to sign up easily, upload meal images, and receive detailed nutritional statistics that align with their diet goals.
