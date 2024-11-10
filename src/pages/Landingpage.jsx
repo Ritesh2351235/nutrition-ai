@@ -12,6 +12,7 @@ export default function LandingPage() {
   const [healthConditions, setHealthConditions] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
+  const BACKEND_URL = process.env.BACKEND_URL;
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
@@ -29,7 +30,7 @@ export default function LandingPage() {
     console.log('Form submitted:', formData);
     
     try {
-      const response = await fetch('https://nutritionai.in/api/users', {
+      const response = await fetch(`https://${BACKEND_URL}/api/users`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
