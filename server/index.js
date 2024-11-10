@@ -8,11 +8,11 @@ const { Pool } = pkg;
 const app = express();
 const port = 3000;
 const pool = new Pool({
-  user: "tsdbadmin",
-  host: "g68xumk929.t8wa87ysw8.tsdb.cloud.timescale.com",
-  database: "tsdb",
-  password: "nk85oicp8lncpo4v",
-  port: 31732,
+  user: process.env.USER,
+  host: process.env.HOST,
+  database: process.env.DATABASE,
+  password: process.env.PASSWORD,
+  port: process.env.PORT,
 });
 
 const storage = multer.memoryStorage();
