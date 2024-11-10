@@ -7,6 +7,7 @@ export default function Mainpage() {
   const [analysisResult, setAnalysisResult] = useState(null)
   const [loading, setLoading] = useState(false)
 
+  const BACKEND_URL = process.env.BACKEND_URL;
   const optimizeImage = (file) => {
     return new Promise((resolve) => {
       const MAX_WIDTH = 1024
@@ -105,7 +106,7 @@ export default function Mainpage() {
     formData.append('userId', userId)
 
     try {
-      const response = await fetch('https://nutritionai.in/api/analyze-food', {
+      const response = await fetch(`https://{BACKEND_URL}/api/analyze-food`, {
         method: 'POST',
         body: formData,
       })
