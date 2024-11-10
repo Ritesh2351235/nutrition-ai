@@ -106,7 +106,7 @@ export default function Mainpage() {
     formData.append('userId', userId)
 
     try {
-      const response = await fetch(`https://{BACKEND_URL}/api/analyze-food`, {
+      const response = await fetch(`https://${BACKEND_URL}/api/analyze-food`, {
         method: 'POST',
         body: formData,
       })
