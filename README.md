@@ -33,3 +33,6 @@ NutritionAI simplifies the journey to healthier eating by enabling users to sign
 
 ## Architecture
 ![Architecture](https://github.com/Ritesh2351235/nutrition-ai/blob/main/NutritionAi.png)
+
+## Demo 
+![Demo](https://github.com/Ritesh2351235/nutrition-ai/blob/main/demo.png)
