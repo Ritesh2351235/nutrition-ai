@@ -1,4 +1,5 @@
 # NutritionAI
+### This is a submission for the Open Source AI Challenge with pgai and Ollama
 
 NutritionAI is an innovative application designed to help users achieve their dietary goals by providing personalized nutritional insights. By allowing users to upload pictures of their daily meals, the app analyzes the nutritional content and offers tailored recommendations based on individual dietary needs.
 
